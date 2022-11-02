@@ -38,21 +38,53 @@ header{
     background-color: rgb(216, 238, 247);
 }
 
-@media(min-width: 375px){
-    .header{
+@media screen and (min-width: 375px){
+    .body{
         display: flex;
         justify-content: space-between;
+        flex-direction: column;
         align-items: center;
+        margin: 30px;
         background-color: rgb(216, 238, 247);
+    }
+    .row{
+        margin: 10px;
+    }
+    .h2-aa{
+        margin: 10px;
+    }
+    .imagen-uno{
+        padding-top: 10px;
+    }
+    .nav{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: left;
     }
 }
 
-@media(max-width: 1200px){
-    .header{
+
+@media screen and (max-width: 1200px){
+    .body{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
+        flex-direction: column;
         align-items: center;
+        margin: 30px;
         background-color: rgb(216, 238, 247);
+    }
+    .row{
+        margin: 10px;
+    }
+    .imagen-uno{
+        padding-top: 10px;
+    }
+    .nav{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: left;
     }
 }
 
@@ -324,7 +356,7 @@ header{
 .header-alimentacion{
     background-color: #6bc0a4;
     position: absolute;
-    width: 100%;
+    margin-top: 0px;
 }
 
 .imagen-8{
@@ -366,7 +398,13 @@ header{
     margin-top: 1px;
 }
 
+.section-cuerpo{
+    padding-top: 805px;
+}
 
+.section-cuerpo2{
+    padding-top: -800;
+}
 
 .parrafo-e{
     background-color: rgb(186, 221, 210);
@@ -433,44 +471,4 @@ footer{
     font-size: 1rem;
 }
 
-.sonic-corriendo{
-    animation: petey 3s linear infinite;
-    height: 100px;
-    width: 100px;
-    z-index: 1;
-  }
-
-
-@keyframes petey {
-  0% {
-    transform: translate(0, 0);
-  }
-  50% {
-    transform: translate(250px, 0) rotate(45deg);
-  }
-  5% {
-    transform: translate(100px, 0px)
-  }
-  10% {
-    transform: translate(400px, 0px)
-  }
-  25% {
-    transform: translate(500px, 0px)
-  }
-  35% {
-    transform: translate(590px, 0px)
-  }
-  50% {
-    transform: translate(500px, 0px) scaleX(-1);
-  }
-  60% {
-    transform: translate(350px, 0px) scaleX(-1);
-  }
-  75% {
-    transform: translate(200px, 0) scaleX(-1);
-  }
-  100% {
-    transform: translate(0, 0) scaleX(-1);
-  }
-}
 /*Fin del footer*/
