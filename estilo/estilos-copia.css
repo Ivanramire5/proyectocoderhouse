@@ -63,33 +63,37 @@ a{
         padding-top: 10px;
     }
     .footer{
-        margin: 30px;
-        background-color: rgba(23, 175, 127, 0.788);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    .imagen-uno{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .imagen-uno img{
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-    }
-    .h4-a{
-        text-align: center;
-        font-size: 2rem;
-        margin: 30px;
-    }
-    .parrafo-a{
-        color: black;
-        text-align: left;
-        margin: 30px;
-        font-size: 1rem;
+    margin: 30px;
+    background-color: rgba(23, 175, 127, 0.788);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.imagen-uno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-uno img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.h4-a{
+    text-align: center;
+    font-size: 2rem;
+    margin: 30px;
+}
+
+.parrafo-a{
+    color: black;
+    text-align: left;
+    margin: 30px;
+    font-size: 1rem;
     }
     .list-group-item{
         color: #096e4d;
@@ -108,6 +112,7 @@ a{
     .imagen-b{
         margin: auto;
         display: flex;
+    
     }
     .imagen-b img{
         background-position: center;
@@ -140,6 +145,8 @@ a{
             padding: 5px;
         }
     }
+
+
 @media (min-width: 375px){
     .body{
         display: flex;
@@ -209,6 +216,7 @@ a{
     .imagen-b{
         margin: auto;
         display: flex;
+    
     }
     .imagen-b img{
         background-position: center;
@@ -216,40 +224,41 @@ a{
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-    .navbar-brand{
-        justify-content: center;
-        text-align: center;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .container-fluid{
-        display: flex;
-        background-color: #249e7579;
-        margin: auto;
-        background-position: center;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .nav-link{
-        background-color: #d4f5eb;
-        color: black;
-        background-position: center;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .container-fluid{
-        display: flex;
-        background-color: #249e7579;
-        margin: auto;
-        padding: 5px;
-    }
+}
+.navbar-brand{
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container-fluid{
+    display: flex;
+    background-color: #249e7579;
+    margin: auto;
+    background-position: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-link{
+    background-color: #d4f5eb;
+    color: black;
+    background-position: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-fluid{
+    display: flex;
+    background-color: #249e7579;
+    margin: auto;
+    padding: 5px;
+}
 }
 /*Body*/
 
@@ -279,10 +288,9 @@ header{
 }
 
 .parrafo-a{
-    font-size: 1.3rem;
-    margin: auto;
+    font-size: 1.2rem;
     margin: 30px;
-    color: #000000;
+    font-size: 1.3rem;
 }
 
 .h2-a{
@@ -291,7 +299,6 @@ header{
     margin: 30px;
     display: flex;
     justify-content: center;
-    font-size: 2.8rem;
 }
 
 .h2-aa{
@@ -303,7 +310,7 @@ header{
 
 .h3-a{
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.9rem;
     color: #0d523b;
     margin: 30px;
     padding: 10px;
@@ -317,12 +324,10 @@ header{
     border-color: #23ad7f3b;
 }
 
-.h4-a{
+.h4-aa{
     color: #000000;
     font-size: 1.7rem;
     text-align: center;
-    padding: 10px;
-    margin: auto;
 }
 
 .h5-ab{
@@ -330,6 +335,7 @@ header{
     font-size: 1rem;
     text-align: center;
 }
+
 
 /*Tarjetas*/
 .card{
@@ -437,6 +443,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .imagen-c img{
     background-position: center;
@@ -529,6 +536,14 @@ header{
     margin-top: 0px;
 }
 
+
+.lista-e{
+    color: rgb(6, 32, 24);
+    width: 250px;
+    border-bottom: 3px;
+    margin: 30px;
+    font-size: 1.1rem;
+}
 .p-4{
     text-align: center;
     margin: auto;
@@ -536,8 +551,6 @@ header{
     font-size: 1.2rem;
     color: #000000;
 }
-
-
 .parrafo-e{
     text-align: center;
     margin: 30px;
@@ -552,7 +565,7 @@ header{
 }
 .p-3{
     color: #000000;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .list-group-item{
     color: #000000;
@@ -624,8 +637,27 @@ header{
     font-size: 1.1rem;
     color: #000000;
 }
-
+.desplegable-d{
+    margin: auto;
+}
+.content-select{
+    size: 20px;
+    margin: auto;
+}
+label{
+    margin: auto;
+    color:#000000;
+    display: block;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+.content-select{
+    margin: auto;
+    text-align: center;
+}
 /*Footer*/
+
 footer{
     margin: 30px;
     background-color: rgba(43, 184, 139, 0.384);
@@ -644,27 +676,17 @@ footer{
     border-radius: 50%;
 }
 
-.parrafo-ad{
+.h4-a{
     text-align: center;
-    font-size: 1rem;
-    margin: auto;
+    font-size: 2.2rem;
     margin: 30px;
 }
-.social-bar{
-    display: flex;
-    justify-content: space-around;
-}
-.icon{
-    text-decoration: none;
-    font-size: 30px;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
+
+.parrafo-ad{
     text-align: center;
-    background-color: #000000;
-    color: white;
-    border-radius: 50%;
-    box-shadow: 2px 2px rgb(0, 0, 0, .5);
-    transition: all .4s ease-in-out;
+    margin: 30px;
+    font-size: 1rem;
+    margin: auto;
 }
+
 /*Fin del footer*/

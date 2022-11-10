@@ -1,0 +1,90 @@
+.list-group-item{
+    background-color: #096e4c3f;
+    margin: 10px;
+    font-size: 1.2rem;
+    background-position: center;
+    color: #000000;
+    font-size: 1.2rem;
+}
+.lista-a{
+    color: #096e4d;
+    margin: 30px;
+    font-size: 1.2rem;
+    &-b{
+        background-color: rgb(198, 206, 209);
+        width: 250px;
+        border-bottom: 3px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+        border-color: #096e4c5e;
+        border-style: solid;
+        &-b{
+            background-color: rgb(198, 206, 209);
+            width: 250px;
+            border-bottom: 3px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 15px;
+            border-color: #096e4c5e;
+            border-style: solid;
+            &-d{
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                margin: auto;
+                margin: 30px;
+                border-radius: 10px;
+                border-color: #0d96689f;
+                background-color: #6bc0a473;
+                &-e{
+                    color: rgb(6, 32, 24);
+                    width: 250px;
+                    border-bottom: 3px;
+                    margin: 30px;
+                    font-size: 1.1rem;
+                }
+            }
+        }
+    }
+}
+
+.list-group-item{
+    color: #000000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    &-list-group-flush{
+        background-color:#6bc0a47e;
+        margin: auto;
+        display: contents;
+        border-style: solid;
+        border-radius: 10px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        &-numbered{
+            background-color:#6bc0a47e;
+            margin: auto;
+            display: contents;
+            border-style: solid;
+            border-radius: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            &-item{
+                background-color: lightblue;
+                font-size: 1.3rem;
+                color: #000000;
+                text-align: left;
+                gap: 20px;
+                display: table-column;
+            }
+        }
+    }
+}
+
