@@ -1,0 +1,29 @@
+$color-primario: #000000;
+$color-secundario: #096e4d;
+$color-fondo: #befde8b7;
+$color-terciario: #17b07fc9;
+$color-titulo: #6bc0a4;
+$color-footer: #2bb88b62;
+$color-list: lightblue;
+$color-tabla:  #6bc0a449;
+$fuente-principal: "Noto sans";
+$fuente-secundaria: "sans-serif";
+$font-size-h1: 3.5rem;
+$font-size-h2: 2.8rem;
+$font-size-h2a: 2rem;
+$font-size-h3: 1.6rem;
+$font-size-h4: 1.7rem;
+$font-size-p: 1.3rem;
+$font-size-nav: 1rem;
+$font-th: 1.2rem;
+$font-td: 1.1rem;
+
+/*Etiquetas*/
+body{
+    background-color: $color-fondo;
+}
+
+.h1{
+    color: $color-primario;
+    font-size: $font-size-h1;
+}

@@ -1,0 +1,136 @@
+.h1-a{
+    background-color: rgb(107, 192, 164);
+    text-align: center;
+    padding: 10px;
+    font-size: 3.5rem;
+    margin: 0px;
+    background-position: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+.h2-a{
+    color: #0d523b;
+    text-align: center;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+.h3-a{
+    text-align: center;
+    font-size: 1.9rem;
+    color: #0d523b;
+    margin: 30px;
+    padding: 10px;
+}
+.h4-a{
+    text-align: center;
+    font-size: 2.2rem;
+    margin: 30px;
+}
+.parrafo-a{
+    font-size: 1.2rem;
+    &-c{
+        color: rgb(0, 0, 0);
+        text-align: left;
+        font-size: 1.1rem;
+        margin: 30px;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (min-width: 375px){
+    .h1-a{
+        background-color: rgb(107, 192, 164);
+        text-align: center;
+        padding: 10px;
+        font-size: 3.5rem;
+        margin: 0px;
+        background-position: center;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000000;
+    }
+    .h2-a{
+        color: #0d523b;
+        text-align: center;
+        margin: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .h3-a{
+        text-align: center;
+        font-size: 1.9rem;
+        color: #0d523b;
+        margin: 30px;
+        padding: 10px;
+    }
+    .h4-a{
+        text-align: center;
+        font-size: 2.2rem;
+        margin: 30px;
+    }
+    .parrafo-a{
+        font-size: 1.2rem;
+        &-c{
+            color: rgb(0, 0, 0);
+            text-align: left;
+            font-size: 1.1rem;
+            margin: 30px;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+@media (max-width: 1200px){
+    .h1-a{
+        background-color: rgb(107, 192, 164);
+        text-align: center;
+        padding: 10px;
+        font-size: 3.5rem;
+        margin: 0px;
+        background-position: center;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000000;
+    }
+    .h2-a{
+        color: #0d523b;
+        text-align: center;
+        margin: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .h3-a{
+        text-align: center;
+        font-size: 1.9rem;
+        color: #0d523b;
+        margin: 30px;
+        padding: 10px;
+    }
+    .h4-a{
+        text-align: center;
+        font-size: 2.2rem;
+        margin: 30px;
+    }
+    .parrafo-a{
+        font-size: 1.2rem;
+        &-c{
+            color: rgb(0, 0, 0);
+            text-align: left;
+            font-size: 1.1rem;
+            margin: 30px;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

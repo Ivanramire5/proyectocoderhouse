@@ -1,0 +1,24 @@
+{
+  "name": "proyecto-final-desarrollo-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivanramire5/proyectocoderhouse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ivanramire5/proyectocoderhouse/issues"
+  },
+  "homepage": "https://github.com/Ivanramire5/proyectocoderhouse#readme",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^5.2.2",
+    "sass": "^1.55.0"
+  }
+}
