@@ -1,13 +1,29 @@
+/*Colores*/
 $color-primario: #000000;
 $color-secundario: #096e4d;
 $color-fondo: #befde8b7;
 $color-terciario: #17b07fc9;
+$color-cuarto: #096e4c3f;
 $color-titulo: #6bc0a4;
 $color-footer: #2bb88b62;
-$color-list: lightblue;
+$color-list: #add8e6;
 $color-tabla:  #6bc0a449;
+$color-cuadro: #23ad7f3b;
+$color-cinco: #2fc5932a;
+$color-seis: #c6ced1;
+$color-siete: #096e4c5e;
+$color-ocho:  #0d523b;
+$color-nueve: #6bc0a4;
+$color-die: #02160f;
+$color-once: #6bc0a449;
+$color-doce: #add8e6;
+$color-trece: #ffffff;
+$color-catorce: #36A0FF;
+$color-quince: #6bcaacc9;
+/*Fuentes*/
 $fuente-principal: "Noto sans";
 $fuente-secundaria: "sans-serif";
+/*Tamaños*/
 $font-size-h1: 3.5rem;
 $font-size-h2: 2.8rem;
 $font-size-h2a: 2rem;
@@ -17,13 +33,509 @@ $font-size-p: 1.3rem;
 $font-size-nav: 1rem;
 $font-th: 1.2rem;
 $font-td: 1.1rem;
+$font-uno: 27px;
+$font-dos: 35px;
+/*Margenes*/
+$margen-sexto: 0px;
+$margen-quinto: 20px;
+$margen-cuarto: 15px;
+$margen-principal: 30px;
+$margen-secundario: 10px;
+$margen-terciario: 10px;
+/*Posiciones*/
+$posicion-texto: center;
+$posicion-dos: left;
+$display-2: list-item;
+$posicion-tres: right;
+/*Padding*/
+$espaciado-uno: 10px;
+$espaciado-dos: 5px;
+/*Imagenes*/
+$alinear-imagenes: center;
+/*Tamaños de imagenes-width*/
+$ancho-uno: 250px;
+$ancho-dos: 400px;
+$ancho-tres: 600px;
+$ancho-cuatro: 100px;
+$ancho-cinco: 50px;
+/*Tamaños de imagenes height*/
+$alto-uno: 200px;
+$alto-dos: 250px;
+$alto-tres: 300px;
+$alto-cuatro: 100px;
+$alto-cinco: 50px
+/*Bordes*/
+$borde-cuatro: 3px;
+$borde-uno: 50%;
+$borde-dos: 20px;
+$borde-tres: 10px;
+$estilo-borde: solid;
+/*Sombras*/
+$sombras-uno: 5px 10px 7px rgba(0,0,0,0.5), -5px -10px 7px rgba(0,0,0,0.5);
+$sombras-dos: 2px 2px rgb(0, 0, 0, .5);
+/*Padding*/
+$padding-uno: 20px;
+$padding-dos: 10px;
+$padding-tres: 5px;
+$padding-cuatro: 25px;
+/*Margenes*/
+$margen-auto: auto;
+$flex-flex: flex;
+$posicion-uno: absolute;
+$display-3: contents;
+$display-4: table-column;
+$display-5: space-around;
+$border-radius: 50%;
+$etiqueta: none;
+$animacion: all .4s ease-in-out;
+
+
 
 /*Etiquetas*/
 body{
     background-color: $color-fondo;
 }
 
-.h1{
+.h1-a{
     color: $color-primario;
     font-size: $font-size-h1;
+    margin: $margen-terciario;
+    background-color: $color-titulo;
+    font-size: $font-size-h1;
+}
+
+.parrafo-a{
+    font-size: $font-size-p;
+    color: $color-primario;
+    margin: $margen-principal;
+}
+
+.h2-a{
+    color: $color-secundario;
+    margin: $margen-principal;
+    font-size: $font-size-h2;
+}
+
+.h2-aa{
+    color: $color-secundario;
+    font-size: $font-size-h3;
+    margin: $margen-principal;
+    padding-top: $padding-uno;
+}
+
+.h3-a{
+    text-align: $alinear-imagenes;
+    font-size: $font-size-h3;
+    margin: $margen-principal;
+    padding: $padding-dos;
+}
+
+.cuadro-alimento{
+    background-color: $color-cuadro;
+    padding-top: $padding-tres;
+    border-style: $estilo-borde;
+    padding-bottom: $padding-tres;
+}
+
+.h4-a{
+    color: $color-primario;
+    font-size: $font-size-h4;
+    text-align: $posicion-texto;
+    margin: $margen-auto;
+}
+
+.h4-aa{
+    color: $color-primario;
+    font-size: $font-td;
+    text-align: $posicion-texto;
+}
+
+.h5-aa{
+    color: $color-primario;
+    text-align: $posicion-texto;
+    font-size: $font-size-nav;
+}
+
+.card{
+    background-position: $posicion-texto;
+    margin: $margen-auto;
+    display: $flex-flex;
+    justify-content: $posicion-texto;
+    margin: $margen-auto;
+    border-radius: $espaciado-uno;
+    border-style: $estilo-borde;
+    border-color: $color-secundario;
+    box-shadow: $sombras-uno;
+}
+
+.card-title{
+    background-position: $posicion-texto;
+    justify-content: $posicion-texto;
+    align-items: $posicion-texto;
+}
+
+.card-text{
+    text-align: $posicion-texto;
+    color: $color-primario;
+    justify-content: $posicion-texto;
+}
+
+.card-group{
+    margin: $margen-auto;
+    display: $flex-flex;
+}
+
+.list-group-item{
+    background-color: $color-cuarto;
+    margin: $padding-dos;
+    font-size: $font-th;
+    background-position: $posicion-texto;
+    color: $color-primario;
+}
+
+.lista-erizo{
+    margin: $margen-auto;
+    justify-content: $posicion-texto;
+    color: $color-primario;
+    background-color: $color-cinco;
+    font-size: $font-td;
+    display: $display-2
+}
+
+.parrafo-aa{
+    color: $color-secundario;
+    text-align: $posicion-dos;
+    font-size: $font-size-nav;
+}
+
+.lista-a{
+    color: $color-secundario;
+    font-size: $font-th;
+    margin: $margen-principal;
+}
+
+.lista-b{
+    background-color: $color-seis;
+    width: $ancho-uno;
+    border-bottom: $borde-cuatro;
+    margin: $margen-auto;
+    display: $flex-flex;
+    justify-content: $posicion-texto;
+    align-items: $posicion-texto;
+    margin-top: $margen-cuarto;
+    border-style: $estilo-borde;
+    border-color: $color-siete;
+}
+
+.imagen-a{
+    background-position: $posicion-texto;
+    margin: $margen-auto;
+    display: $flex-flex;
+    justify-content: $posicion-texto;
+    align-items: $posicion-texto;
+    border-radius: $borde-uno;
+    height: $ancho-uno;
+    width: $ancho-uno;
+}
+
+.imagen-b{
+    background-position: $posicion-texto;
+    margin: $margen-auto;
+    display: $flex-flex;
+    justify-content: $posicion-texto;
+    align-items: $posicion-texto;
+}
+
+.imagen-b img{
+    background-position: $posicion-texto;
+    margin: $margen-auto;
+    display: $flex-flex;
+    justify-content: $posicion-texto;
+    align-items: $posicion-texto;
+    border-radius: $borde-uno;
+    height: $alto-uno;
+    width: $ancho-uno;
+    border-color: $color-ocho;
+    border-style: $estilo-borde;
+    border-radius: $margen-quinto;
+    box-shadow: $sombras-uno;
+}
+
+.imagen-c{
+    background-position: $posicion-texto;
+    margin: $margen-auto;
+    display: $flex-flex;
+    justify-content: $posicion-texto;
+    align-items: $posicion-texto;
+}
+
+.imagen-c img{
+    background-position: $posicion-texto;
+    margin: $margen-auto;
+    display: $flex-flex;
+    justify-content: $posicion-texto;
+    align-items: $posicion-texto;
+    width: $ancho-dos;
+    height: $alto-uno;
+    border-radius: $borde-tres;
+    margin-top: $margen-principal;
+}
+
+.imagen-dos{
+    background-position: $posicion-texto;
+    margin: $margen-auto;
+    display: $flex-flex;
+    justify-content: $posicion-texto;
+    align-items: $posicion-texto;
+    margin: $margen-principal;
+}
+
+.imagen-dos img{
+    background-position: $posicion-texto;
+    margin: $margen-auto;
+    display: $flex-flex;
+    justify-content: $posicion-texto;
+    align-items: $posicion-texto;
+    width: $ancho-dos;
+    height: $alto-uno;
+    border-radius: $borde-tres;
+    margin-top: $margen-principal;
+    border-color: $color-nueve;
+    border-style: $estilo-borde;
+    box-shadow: $sombras-uno;
+}
+
+.imagen-d{
+    background-position: $posicion-texto;
+    margin: $margen-auto;
+    display: $flex-flex;
+    justify-content: $posicion-texto;
+    align-items: $posicion-texto;
+    margin: $margen-principal;
+}
+.imagen-d img{
+    background-position: $posicion-texto;
+    margin: $margen-auto;
+    display: $flex-flex;
+    justify-content: $posicion-texto;
+    align-items: $posicion-texto;
+    margin: $margen-principal;
+    padding: $padding-cuatro;
+    width: $ancho-tres;
+    height: $alto-tres;
+    border-color: $color-nueve;
+    border-style: $estilo-borde;
+}
+.imagen-9{
+    display: $flex-flex;
+    justify-content: $posicion-texto;
+    align-items: $posicion-texto;
+    margin: $padding-dos;
+}
+
+.col-9{
+    display: $flex-flex;
+    justify-content: $posicion-texto;
+    align-items: $posicion-texto;
+    margin: $margen-auto;
+}
+
+.col-4{
+    display: $flex-flex;
+    justify-content: $posicion-texto;
+    align-items: $posicion-texto;
+    margin: $margen-auto;
+}
+
+.col-6{
+    display: $flex-flex;
+    justify-content: $posicion-texto;
+    align-items: $posicion-texto;
+    margin: $margen-auto;
+}
+
+.header-alimentacion{
+    background-color: $color-titulo;
+    position: $posicion-uno;
+    margin-top: $margen-sexto;
+}
+
+.p-4{
+    text-align: $posicion-texto;
+    margin: $margen-auto;
+    display: $flex-flex;
+    font-size: $font-th;
+    color: $color-primario;
+}
+
+.parrafo-e{
+    text-align: $posicion-texto;
+    font-size: $font-size-nav;
+    margin: $margen-principal;
+}
+
+.text-center{
+    border-color: $color-siete;
+    border: $color-die;
+    border-style: $estilo-borde;
+}
+
+.p-3{
+    color: $color-primario;
+    font-size: $font-th;
+}
+
+.list-group-item{
+    color: $color-primario;
+    text-align: $posicion-texto;
+    display: $flex-flex;
+    justify-content: $posicion-texto;
+}
+
+.navbar-toggler{
+    text-align: $posicion-tres;
+    display: $flex-flex;
+    justify-content: $posicion-tres;
+}
+
+.navbar-toggler-icon{
+    text-align: $posicion-tres;
+    display: $flex-flex;
+    justify-content: $posicion-tres;
+    color: $color-primario
+}
+
+.lista-d{
+    display: $flex-flex;
+    justify-content: $posicion-texto;
+    text-align: $alinear-imagenes;
+    margin: $margen-auto;
+    margin: $margen-principal;
+    border-radius: $padding-dos;
+    color: $color-primario;
+    background-color: $color-once;
+}
+
+.list-group.list-group-flush{
+    background-color: $color-once;
+    margin: $margen-auto;
+    border-style: $estilo-borde;
+    border-radius: $margen-secundario;
+    text-align: $alinear-imagenes;
+    display: $display-3;
+    display: $flex-flex;
+    justify-content: $alinear-imagenes;
+}
+
+.list-group.list-group-numbered{
+    background-color: $color-once;
+    margin: $margen-auto;
+    border-style: $estilo-borde;
+    border-radius: $margen-secundario;
+    text-align: $alinear-imagenes;
+    display: $display-3;
+    display: $flex-flex;
+    justify-content: $alinear-imagenes;
+}
+
+.list-group-item{
+    background-color: $color-doce;
+    font-size: $font-size-p;
+    color: $color-primario;
+    text-align: $posicion-dos;
+    gap: $padding-uno;
+    display: $display-4;
+}
+
+.tabla-d{
+    display: $flex-flex;
+    margin: $margen-auto;
+    color: $color-primario;
+    background-color: $color-once;
+}
+
+.th{
+    font-size: $font-th;
+    color: $color-primario
+}
+
+.td{
+    font-size: $font-td;
+    color: $color-primario;
+}
+
+footer{
+    margin: $margen-principal;
+    display: $flex-flex;
+    padding-bottom: $margen-quinto;
+}
+
+.imagen-uno{
+    padding: $espaciado-uno;
+    display: $flex-flex;
+    justify-content: $alinear-imagenes;
+}
+
+.imagen-uno img{
+    width: $ancho-cuatro;
+    height: $alto-cuatro;
+    border-radius: $border-radius;
+}
+
+.parrafo-ad{
+    text-align: $alinear-imagenes;
+    font-size: $font-size-nav;
+    margin: $margen-auto;
+    margin: $margen-principal;
+}
+
+.social-bar{
+    display: $flex-flex;
+    justify-content: $display-5;
+}
+
+.icon{
+    text-decoration: $etiqueta;
+    font-size: $margen-principal;
+    width: $alto-cinco;
+    height: $ancho-cinco;
+    line-height: $ancho-cinco;
+    text-align: $alinear-imagenes;
+    background-color: $color-primario;
+    color: $color-trece;
+    border-radius: $border-radius;
+    box-shadow: $sombras-dos;
+    transition: $animacion;
+}
+
+.header{
+    font-size: $font-uno;
+    color: $color-catorce;
+    padding: $margen-terciario;
+}
+
+.bigcon{
+    font-size: $font-dos;
+    color: $color-catorce;
+}
+
+.barra-navegacion{
+    background-color: $color-quince;
+    color: $color-primario;
+    font-size: $font-th;
+}
+
+.nav-item{
+    background-color: $color-quince;
+    color: $color-primario;
+}
+
+.nav-link active{
+    background-color: $color-quince;
+    color: $color-primario;
+}
+
+.nav-link{
+    background-color: $color-quince;
+    color: $color-primario;
 }

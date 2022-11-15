@@ -1,20 +1,31 @@
-.card{
-    border-radius: 10px;
-    margin: 30px;
-    border-style: solid;
-    border-color: #096e4d;
-    box-shadow: 5px 10px 7px rgba(0,0,0,0.5), -5px -10px 7px rgba(0,0,0,0.5);
-    &-body{
-        background-color: #befde8b7;
-        color: #096e4d;
-        font-size: 1rem;
-        &-title{
-            background-position: center;
-            justify-content: center;
-            align-items: center;
-            &-group{
+body{
+    main{
+        section{
+            .card-group{
                 margin: auto;
                 display: flex;
+                .card{
+                    border-radius: 10px;
+                    margin: 30px;
+                    border-style: solid;
+                    border-color: #096e4d;
+                    box-shadow: 5px 10px 7px rgba(0,0,0,0.5), -5px -10px 7px rgba(0,0,0,0.5);
+                    .card-body{
+                        background-color: #befde8b7;
+                        color: #096e4d;
+                        font-size: 1rem;
+                        .card-title{
+                            background-position: center;
+                            justify-content: center;
+                            align-items: center;
+                            .card.text{
+                                text-align: center;
+                                color: #000000;
+                                justify-content: center;
+                            }
+                        }
+                    }
+                }
             }
         }
     }

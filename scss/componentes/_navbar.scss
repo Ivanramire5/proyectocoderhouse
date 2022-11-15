@@ -1,0 +1,31 @@
+body{
+    header{
+        .barra-navegacion{
+            background-color: #17b07fc9;
+            color: #000000;
+            font-size: 1.2rem;
+            .container-fluid{
+                .navbar-brand{
+                    .navbar-toggler{
+                        &-icon{
+                            &-collapse{
+                            .nav-item{
+                                background-color: #17b07fc9;
+                                color: #000000;
+                                &-link{
+                                    background-color:  #17b07fc9;
+                                    color: #000000;
+                                    .nav-link{
+                                        background-color:  #1f8865;
+                                        color: #000000;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

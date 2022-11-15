@@ -1,14 +1,13 @@
 @import "./utils/variables";
-@import "./utils/mixin";
 
 @import "./base/base";
 
-@import "./componentes/tarjeta";
-@import "./componentes/navbar";
 @import "./componentes/footer";
-@import "./componentes/lists";
-@import "./componentes/tablas";
 @import "./componentes/imagenes";
+@import "./componentes/mediaquerys";
+@import "./componentes/navbar";
+@import "./componentes/tarjeta";
+
 
 @import "./pages/index";
 @import "./pages/alimentacion";
@@ -16,5 +15,4 @@
 @import "./pages/cuidados";
 @import "./pages/historia";
 
-@import "./main.scss";
 

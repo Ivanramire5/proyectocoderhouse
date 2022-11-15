@@ -1,0 +1,123 @@
+@media (max-width: 1200px) and (min-width: 375px){
+    .body{
+        display: flex;
+        font-family: 'Noto Sans', sans-serif;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px;
+        background-color: rgb(216, 238, 247);
+        .lista-a{
+            margin: 30px;
+            color: #000000;
+            .barra-navegacion{
+                background-color: #17b07fc9;
+                color: #000000;
+                font-size: 1.2rem;
+                .card{
+                    border-radius: 10px;
+                    margin: 30px;
+                    border-style: solid;
+                    border-color: #096e4d;
+                    box-shadow: 5px 10px 7px rgba(0,0,0,0.5), -5px -10px 7px rgba(0,0,0,0.5);
+                    .card-body{
+                        background-color: #befde8b7;
+                        color: #096e4d;
+                        font-size: 1rem;
+                        .row{
+                            margin: 10px;
+                            .h1-a{
+                                font-size: 1.3rem;
+                                text-align: center;
+                                color: #000000;
+                                background-color: #096e4d;
+                                .h2-a{
+                                    margin: 10px;
+                                    text-align: center;
+                                    color: #000000;
+                                    .imagen-uno{
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        .footer{
+                                            margin: 30px;
+                                            background-color: #17b07fc9;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            text-align: center;
+                                            .imagen-uno img{
+                                                width: 100px;
+                                                height: 100px;
+                                                border-radius: 50%;
+                                                .h4-a{
+                                                    text-align: center;
+                                                    font-size: 2rem;
+                                                    margin: 30px;
+                                                    .parrafo-a{
+                                                        color: black;
+                                                        text-align: left;
+                                                        margin: 30px;
+                                                        font-size: 1rem;
+                                                        .list-group-item{
+                                                            color: #096e4d;
+                                                            margin: 30px;
+                                                            font-size: 1.2rem;
+                                                            .p-3{
+                                                                color: #000000;
+                                                                font-size: 1rem;
+                                                                .imagen-8{
+                                                                    display: flex;
+                                                                    size: 40px;
+                                                                    overflow-x: hidden;
+                                                                    .imagen-b{
+                                                                        margin: auto;
+                                                                        display: flex;
+                                                                        .imagen-b img{
+                                                                            background-position: center;
+                                                                            margin: auto;
+                                                                            display: flex;
+                                                                            justify-content: center;
+                                                                            align-items: center;
+                                                                            .navbar-brand{
+                                                                                justify-content: center;
+                                                                                text-align: center;
+                                                                                margin: auto;
+                                                                                display: flex;
+                                                                                justify-content: center;
+                                                                                align-items: center;
+                                                                                .container-fluid{
+                                                                                    display: flex;
+                                                                                    background-color: #249e7579;
+                                                                                    margin: auto;
+                                                                                    .nav-link{
+                                                                                        background-color: #d4f5eb;
+                                                                                        color: black;
+                                                                                        .container-fluid{
+                                                                                            display: flex;
+                                                                                            background-color: #249e7579;
+                                                                                            margin: auto;
+                                                                                            padding: 5px;
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
