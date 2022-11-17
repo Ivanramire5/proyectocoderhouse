@@ -29,22 +29,29 @@ section{
                     color: #0d523b;
                     margin: 30px;
                     padding: 10px;
-                    .list-group.list-group-flush{
-                        background-color:#6bc0a47e;
-                        margin: auto;
-                        display: contents;
-                        border-style: solid;
-                        border-radius: 10px;
-                        text-align: center;
+                    .lista-puas{
                         display: flex;
-                        justify-content: center;
-                        &-item{
-                            background-color: lightblue;
-                            font-size: 1.3rem;
-                            color: #000000;
-                            text-align: left;
-                            gap: 20px;
-                            display: table-column;
+                        margin: 30px;
+                        margin: auto;
+                        .list-group.list-group-flush{
+                            background-color:#6bc0a47e;
+                            margin: auto;
+                            display: contents;
+                            margin: auto;
+                            margin: 30px;
+                            border-style: solid;
+                            border-radius: 10px;
+                            text-align: center;
+                            display: flex;
+                            justify-content: center;
+                            &-item{
+                                background-color: lightblue;
+                                font-size: 1.3rem;
+                                color: #000000;
+                                text-align: left;
+                                gap: 20px;
+                                display: table-column;
+                            }
                         }
                     }
                 }
