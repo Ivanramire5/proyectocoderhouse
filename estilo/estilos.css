@@ -160,6 +160,8 @@ a{
         border-style: solid;
         border-color: #096e4d;
         box-shadow: 5px 10px 7px rgba(0,0,0,0.5), -5px -10px 7px rgba(0,0,0,0.5);
+        margin: auto;
+        display: block;
     }
     .lista-a{
         margin: 30px;
