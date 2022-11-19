@@ -137,7 +137,7 @@ a{
         margin: auto;
         padding: 5px;
     }
-    }
+}
 @media (min-width: 375px){
     .body{
         display: flex;
@@ -320,11 +320,10 @@ header{
 }
 
 .cuadro-alimento{
-    background-color: #6bc0a454;
+    background-color: #75dfbc54;
     padding-top: 5px;
     padding-bottom: 5px;
     border-style: solid;
-    border-color: #23ad7f3b;
 }
 
 .h4-a{
@@ -358,6 +357,9 @@ header{
     margin: 10px;
     border-style: solid;
     border-color: #096e4d;
+    box-shadow: -19px -20px 13px -2px rgba(0,0,0,0.78);
+    -webkit-box-shadow: -19px -20px 13px -2px rgba(0,0,0,0.78);
+    -moz-box-shadow: -19px -20px 13px -2px rgba(0,0,0,0.78);
 }
 .card-title{
     background-position: center;
@@ -458,7 +460,9 @@ header{
     border-color: #0d523b;
     border-style: solid;
     border-radius: 20px;
-    box-shadow: 5px 10px 7px rgba(0,0,0,0.5), -5px -10px 7px rgba(0,0,0,0.5);
+    box-shadow: -19px -20px 13px -2px rgba(0,0,0,0.78);
+    -webkit-box-shadow: -19px -20px 13px -2px rgba(0,0,0,0.78);
+    -moz-box-shadow: -19px -20px 13px -2px rgba(0,0,0,0.78);
 }
 .imagen-c{
     background-position: center;
